@@ -1,5 +1,6 @@
 import React from "react";
-import waveImage from "../assets/wave.svg";
+// import waveImage from "../assets/wave.svg";
+import "../App.css"
 
 const Home = () => {
   return (
@@ -7,10 +8,10 @@ const Home = () => {
       <section className="hero">
         <div className="container hero-inner">
           <div className="hero-text">
-            <h1>Manage Your Tickets Effortlessly</h1>
+            <h1>TicketPulse: Your All-in-One Ticket Solution</h1>
             <p>
-              TicketApp helps you create, track, and resolve tickets easily —
-              whether you’re managing tasks, customers, or project issues.
+              Streamline your support with our powerful and intuitive ticket management system. 
+              Create, track, and resolve issues with ease.
             </p>
             <div className="cta-buttons">
               <a href="/login" className="btn primary">
@@ -23,8 +24,17 @@ const Home = () => {
           </div>
 
           <div className="hero-visual">
-            <img src={waveImage} alt="Decorative Wave" className="hero-wave" />
-            <div className="circle-decor"></div>
+           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" className="absolute bottom-0 left-0 w-full h-90">
+            <path fill="#0099ff" fill-opacity="1.2" d="M0,192L17.1,176C34.3,160,69,128,103,133.3C137.1,139,171,181,206,176C240,
+              171,274,117,309,128C342.9,139,377,213,411,224C445.7,235,480,181,514,186.7C548.6,192,583,256,617,272C651.4,288,686,256,
+              720,245.3C754.3,235,789,245,823,261.3C857.1,277,891,299,926,288C960,277,994,235,1029,208C1062.9,181,1097,171,1131,
+              176C1165.7,181,1200,203,1234,181.3C1268.6,160,1303,96,1337,101.3C1371.4,107,1406,181,1423,218.7L1440,256L1440,0L1422.9,
+              0C1405.7,0,1371,0,1337,0C1302.9,0,1269,0,1234,0C1200,0,1166,0,1131,0C1097.1,0,1063,0,1029,0C994.3,0,960,0,926,0C891.4,0,
+              857,0,823,0C788.6,0,754,0,720,0C685.7,0,651,0,617,0C582.9,0,549,0,514,0C480,0,446,0,411,0C377.1,0,343,0,309,0C274.3,0,240,
+              0,206,0C171.4,0,137,0,103,0C68.6,0,34,0,17,0L0,0Z">
+            </path>
+          </svg>
+            
           </div>
         </div>
       </section>
@@ -32,25 +42,20 @@ const Home = () => {
       <section className="features">
         <div className="container features-grid">
           <div className="feature-card">
-            <h3>Create Tickets</h3>
-            <p>
-              Submit new tickets instantly with validation and automatic
-              tracking.
-            </p>
+            <h3>Full CRUD Functionality</h3>
+            <p>Easily create, read, update, and delete tickets with our intuitive interface.</p>
           </div>
           <div className="feature-card">
-            <h3>View & Manage</h3>
-            <p>
-              See open, in-progress, and closed tickets all in one organized
-              dashboard.
-            </p>
+            <h3>Insightful Dashboard</h3>
+            <p>Get a high-level overview of your support metrics with our summary dashboard.</p>
           </div>
           <div className="feature-card">
-            <h3>Secure & Simple</h3>
-            <p>
-              All your ticket data is safely stored in local sessions — quick
-              and secure.
-            </p>
+            <h3>Secure Authentication</h3>
+            <p>Protect your data with our secure login and signup system, with protected routes.</p>
+          </div>
+           <div className="feature-card">
+            <h3>Real-time Validation</h3>
+            <p>Ensure data integrity with instant form validation and clear feedback messages.</p>
           </div>
         </div>
       </section>

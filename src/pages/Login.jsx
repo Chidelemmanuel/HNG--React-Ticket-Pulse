@@ -25,7 +25,6 @@ const Login = () => {
     showToast("Login successful! Redirecting...", "success");
     setTimeout(() => (window.location.href = "/dashboard"), 1200);
   }
-  
 
   return (
     <div>
