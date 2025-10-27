@@ -1,4 +1,4 @@
-# TicketApp – React Implementation
+# Ticket-Pulse App – React Implementation
 
 This repository contains the **React version** of the Multi-Framework Ticket Management Web App, part of the Frontend Stage 2 assignment. The app provides a fully functional ticket system with authentication, dashboard, and CRUD operations for tickets.
 
@@ -21,7 +21,7 @@ This repository contains the **React version** of the Multi-Framework Ticket Man
 
 ## Project Overview
 
-TicketApp is a **robust ticket management system** built in React. Users can:
+Ticket-Pulse App is a **robust ticket management system** built in React. Users can:
 
 - Log in and sign up (simulated via `localStorage` session token)
 - View a dashboard with ticket statistics
