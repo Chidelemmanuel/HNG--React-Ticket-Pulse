@@ -201,16 +201,19 @@ body {
 .hero-inner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
   gap: 2rem;
   position: relative;
-  z-index: 1;
+  z-index: 2;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: auto;
 }
 
 .hero-text {
   flex: 1 1 500px;
-  max-width: 600px;
+  max-width: 800px;
 }
 
 .hero-text h1 {
@@ -220,31 +223,17 @@ body {
 }
 
 .hero-text p {
-  font-size: 1.125rem;
+ font-size: 1.125rem;
   margin-bottom: 2rem;
   color: #e0e7ff;
   max-width: 480px;
-}
-
-.hero-visual {
-  display: flex;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  transform: translateX(-50%); 
-  width: 100%; 
-  height: auto;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  z-index: 1;
-  /* background SVG */
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%230099ff' fill-opacity='1' d='M0,192L17.1,176C34.3,160,69,128,103,133.3C137.1,139,171,181,206,176C240,171,274,117,309,128C342.9,139,377,213,411,224C445.7,235,480,181,514,186.7C548.6,192,583,256,617,272C651.4,288,686,256,720,245.3C754.3,235,789,245,823,261.3C857.1,277,891,299,926,288C960,277,994,235,1029,208C1062.9,181,1097,171,1131,176C1165.7,181,1200,203,1234,181.3C1268.6,160,1303,96,1337,101.3C1371.4,107,1406,181,1423,218.7L1440,256L1440,0L0,0Z'%3E%3C/path%3E%3C/svg%3E"); 
-
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .cta-buttons {
   display: flex;
+  justify-content: center;
   gap: 1rem;
 }
 
